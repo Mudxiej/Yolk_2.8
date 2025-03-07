@@ -23,9 +23,9 @@ build_exe_options = {
 }
 
 setup(
-    name = "VALORANT rank yoinker",
+    name = "Yolk",
     version = version,
-    description='vRY - VALORANT rank yoinker',
+    description='Yolk',
     executables = [Executable("main.py", icon="./assets/Logo.ico", target_name="vry.exe")],
     options={"build_exe": build_exe_options}
 )
