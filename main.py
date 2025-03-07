@@ -151,7 +151,7 @@ try:
     previousSeasonID = content.get_previous_season_id(gameContent)
     lastGameState = ""
 
-    print("\n\n\n", color(f"- {get_ip()}:{cfg.port}", fore=(255, 127, 80)))
+    # print("\n\n\n", color(f"- {get_ip()}:{cfg.port}", fore=(255, 127, 80)))
 
     print(
         color(
