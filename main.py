@@ -1,3 +1,5 @@
+# THIS IS A PRIVATE APP FOR RGB DATA COLLECTOR!!!
+
 import asyncio
 import os
 import socket
