@@ -952,6 +952,9 @@ try:
 
                             # bar()
                     seen.append(player["Subject"])
+            if (title := game_state_dict.get(game_state)) is None:
+                # program_exit(1)
+                time.sleep(9)
             table.set_title(f"VALORANT status: {title}")
             if title is not None:
                 if cfg.get_feature_flag("auto_hide_leaderboard") and (
